@@ -1,5 +1,7 @@
-[ ] - Poder cadastrar tarefas;
-[ ] - Poder listar uma tarefa específica;
-[ ] - Poder atualizar uma tarefa;
-[ ] - Poder deletar uma tarefa;
-[ ] - Poder listar todas as tarefas;
+- [x] - Poder cadastrar tarefas;
+- [x] - Poder listar todas as tarefas;
+- [x] - Poder listar uma tarefa específica;
+- [x] - Poder atualizar uma tarefa;
+- [x] - Poder deletar uma tarefa;
+- [ ] - Poder listar a lixeira;
+- [ ] - Poder recuperar/restaurar uma tarefa da lixeira;

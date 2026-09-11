@@ -1,0 +1,16 @@
+info:
+  name: UpdateTask
+  type: http
+  seq: 4
+
+http:
+  method: DELETE
+  url: http://localhost:3333/tasks/40778ef2-3a1c-4fca-9a19-b9203b50a99c
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

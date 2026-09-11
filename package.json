@@ -1,11 +1,34 @@
 {
+  "name": "projeto-backend",
+  "version": "1.0.0",
+  "description": "Aplicação de backend do crud de tarefas",
+  "main": "index.js",
   "dependencies": {
+    "@fastify/type-provider-zod": "^1.0.0",
+    "@prisma/adapter-pg": "^7.10.0",
     "@prisma/client": "^7.10.0",
+    "fastify": "^5.12.3",
     "prisma": "^7.10.0",
-    "zod": "^4.5.4"
+    "zod": "^4.6.0"
   },
   "devDependencies": {
-    "@types/node": "^26.5.0",
+    "@types/node": "^22.20.2",
+    "tsx": "^4.23.13",
     "typescript": "^7.0.2"
-  }
+  },
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus-santos12/projeto-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Matheus-santos12/projeto-backend/issues"
+  },
+  "homepage": "https://github.com/Matheus-santos12/projeto-backend#readme"
 }

@@ -1,0 +1,22 @@
+info:
+  name: RestoreTask
+  type: http
+  seq: 7
+
+http:
+  method: PATCH
+  url: http://localhost:3333/tasks/40778ef2-3a1c-4fca-9a19-b9203b50a99c/restore
+  body:
+    type: json
+    data: |-
+      {
+        "title": "Task modificada"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
