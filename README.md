@@ -3,5 +3,5 @@
 - [x] - Poder listar uma tarefa específica;
 - [x] - Poder atualizar uma tarefa;
 - [x] - Poder deletar uma tarefa;
-- [ ] - Poder listar a lixeira;
-- [ ] - Poder recuperar/restaurar uma tarefa da lixeira;
+- [x] - Poder listar a lixeira;
+- [x] - Poder recuperar/restaurar uma tarefa da lixeira;
